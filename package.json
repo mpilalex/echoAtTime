@@ -1,0 +1,16 @@
+{
+  "name": "echo-time-service",
+  "version": "1.0.0",
+  "description": "Test task",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.4.1",
+    "ioredis": "^4.10.0",
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
+  }
+}
