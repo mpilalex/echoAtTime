@@ -42,7 +42,7 @@ exports.start = function (id) {
                 return;
             }
             const [epoch] = String(timestamp/1000).split(".");
-            executor.push(epoch, message);
+            executor.push(parseInt(epoch), message);
             reply.send({success: true});
         }
     });
